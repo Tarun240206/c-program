@@ -17,5 +17,5 @@ int find_factorial(int n)
  return(1); 
  else
  return(n*find_factorial(n-1));
- printf("%d",n*find_factorial(n-1));
+ 
 }
